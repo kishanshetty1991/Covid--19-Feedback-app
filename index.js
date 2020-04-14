@@ -2,7 +2,7 @@ const express=require('express');
 const app = express();
 
 app.get('/',(req,res)=>{
-	res.send({'Covid-19'});
+	res.send({Covid '19'});
 });
 
 const PORT=process.env.PORT || 5000;
