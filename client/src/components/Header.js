@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Payments from './Payments';
@@ -16,7 +16,7 @@ class Header extends Component{
       return [
           <li key="1"><Payments /></li>,
           <li key="3" style={{margin: '0 10px'}}>
-           Credits You Currently Have: {this.props.auth.credits} 
+           Credits: {this.props.auth.credits} 
           </li>,
           <li key="2"><a href="/api/logout">LogOut</a></li>
           ];
@@ -38,7 +38,7 @@ class Header extends Component{
 	}
 }
 
-function mapStateToProps({auth}) {
+function mapStateToProps({ auth }) {
  return{ auth };
 
 }
