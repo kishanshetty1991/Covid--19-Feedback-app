@@ -10,7 +10,7 @@ module.exports = app => {
      	description:'$5 for 5 credits',
      	source: req.body.id
       });
-    cconsole.log('Stripe keys is', process.env.REACT_APP_STRIPE_KEY);
+    console.log('Stripe keys is', process.env.REACT_APP_STRIPE_KEY);
     console.log('Environment is',process.env.NODE_ENV);
     req.user.credits += 5;
     const user = await req.user.save();///Changes in text
