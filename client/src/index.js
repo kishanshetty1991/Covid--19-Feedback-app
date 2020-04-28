@@ -19,5 +19,5 @@ ReactDOM.render(
 	document.querySelector('#root')
 );
 
-console.log('Stripe keys is', process.env.REACT_APP_STRIPE_KEY);
-console.log('Environment is',process.env.NODE_ENV);
+//console.log('Stripe keys is', process.env.REACT_APP_STRIPE_KEY);
+//console.log('Environment is',process.env.NODE_ENV);
