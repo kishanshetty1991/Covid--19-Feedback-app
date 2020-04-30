@@ -1,5 +1,5 @@
 //dev.js
-module.exports={
+module.exports = {
 	googleClientID: '144253319388-1m7713bpkdgrh09fkn1291h1r88qtjsh.apps.googleusercontent.com',
 	googleClientSecret: 'q53PxnxntYLGlliedY7IUjeA',
 	mongoURI: 'mongodb+srv://Kishanshetty:QF5XvmwaJHnn4gxK@covid19feedback-vkqbi.mongodb.net/testretryWrites=true&w=majority',
